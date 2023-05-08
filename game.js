@@ -27,13 +27,18 @@ function playRound(playerSelection, computerSelection) {
     }
 }
 
-// Game Play for 5 rounds
+// Game instruction: 
+// while 1 means game coming on till either computer/player reach 5 rounds first.
+// change from while(1) to for (let i = 0; i <= 4; i++) means the total number of rounds will be 5. 
 function game() {
-    for (let i = 0; i <= 4; i++) {
+    while (1) {
         const playerSelectionInit = prompt("Please Enter the result");
         let playerSelection = playerSelectionInit.charAt(0).toUpperCase() + playerSelectionInit.substring(1).toLowerCase();
         const computerSelection = getComputerChoice();
         console.log(playRound(playerSelection, computerSelection));
+        if (playerCounter == 5 || computerCounter == 5) {
+            break;
+        }
     }
 }
 
