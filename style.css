@@ -1,0 +1,26 @@
+body {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(148, 148, 67);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.Game {
+    display: grid;
+    justify-content: center;
+    align-self: center;
+}
+
+.Buttons {
+    display: grid;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#State {
+    display: grid;
+    justify-content: center;
+    align-self: center;
+}
