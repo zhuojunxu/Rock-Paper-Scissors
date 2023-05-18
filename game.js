@@ -1,5 +1,5 @@
-// Below is the initital vision of the game.
-// for now, just use paper, rock and scissors (no need to check case sensitivity)
+
+
 const randomHand = ["Rock", "Paper", "Scissors"]
 let computerCounter = 0;
 let playerCounter = 0;
