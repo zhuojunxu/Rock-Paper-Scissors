@@ -1,5 +1,6 @@
 body {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: rgb(148, 148, 67);
@@ -8,14 +9,15 @@ body {
 }
 
 .Game {
-    display: grid;
+    display: flex;
     justify-content: center;
     align-self: center;
+    flex-direction: column;
 }
 
 .Buttons {
-    display: grid;
-    flex-direction: column;
+    display: flex;
+    flex-direction: row;
     gap: 5px;
 }
 
